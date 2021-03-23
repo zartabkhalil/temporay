@@ -1,0 +1,265 @@
+/******************all colors************************/
+.border {
+  border: 1px solid red !important;
+}
+
+/*****/
+/************mixins*/
+.bg-dark-green {
+  background-color: #0D1F22;
+  color: red;
+}
+
+.u-bg-color {
+  background-color: whitesmoke;
+}
+
+.u-nav-call {
+  color: orangered;
+}
+
+.u-icon-border {
+  border: 1px solid orangered;
+  padding: 15px;
+  color: orangered;
+  border-radius: 50%;
+}
+
+.uper-nav-contact span {
+  margin-top: -5px;
+}
+
+@media (min-width: 992px) {
+  .uper-nav-contact p {
+    color: orangered !important;
+    font-size: 20px;
+  }
+  .uper-nav-contact .u-icon-border {
+    padding: 7px;
+    font-size: 15px;
+  }
+  .uper-nav-contact .call-us {
+    font-size: 12px;
+    color: green !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .uper-nav-contact p {
+    color: orangered !important;
+    font-size: 14px;
+  }
+  .uper-nav-contact .u-icon-border {
+    padding: 7px;
+    font-size: 10px;
+  }
+  .uper-nav-contact .u-nav-call {
+    font-size: 10px;
+    color: green !important;
+  }
+}
+
+.mainnav li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 29px !important;
+  -webkit-transition: 1s all ease-in;
+  transition: 1s all ease-in;
+  padding: 10px;
+}
+
+.mainnav li:hover {
+  background-color: #8cded2;
+  border-radius: 10px;
+  color: white;
+}
+
+.header img {
+  height: 49vh;
+}
+
+.header-slider {
+  height: 600px;
+  background-color: black;
+  background-attachment: relative;
+  background-position: fixed;
+}
+
+.offer-icons span {
+  color: #00c291;
+}
+
+.offer-title {
+  color: #00c291 !important;
+}
+
+.offer-hover:hover {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.offer {
+  background-image: url("../../img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.offer .container {
+  background-color: #eeeeee;
+}
+
+.about-img__container {
+  position: relative;
+}
+
+.about-img__container::before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  top: -1.5rem;
+  left: -27.2px;
+  left: -1.7rem;
+  width: 100%;
+  height: 100%;
+  outline: 8px solid #00d6a1;
+  outline: 0.5rem solid #00d6a1;
+  z-index: -1;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.about-img__container:hover:before {
+  top: 0;
+  left: 0;
+}
+
+.sinlge-offer span {
+  color: white;
+  background-color: #00d6a1;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.package-border {
+  background-color: #1b4147;
+  height: 70px;
+  margin-top: -50px;
+}
+
+.sevice-arrow ul {
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  list-style: none;
+}
+
+.sevice-arrow ul li {
+  margin-top: 5px;
+  font-size: bold;
+}
+
+.sevice-arrow {
+  background-color: #fcfcfc;
+}
+
+.sevice-arrow small {
+  color: #00d6a1;
+  font-size: 20px;
+}
+
+.sevice-arrow:hover {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.package {
+  background-image: url("../../img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.subcribe {
+  background-color: #171020;
+  color: white;
+}
+
+.subcribe .container {
+  background-color: #251a34;
+}
+
+.subcribe .mail-icon {
+  margin-top: -70px;
+}
+
+.first-row {
+  border-bottom: none !important;
+}
+
+.footer {
+  background-color: #f3f3f3;
+}
+
+.footer .row {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.footer-nav {
+  font-size: 25px;
+}
+
+.footer-nav ul {
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  list-style-type: none;
+}
+
+.footer-nav li {
+  text-decoration: none;
+  margin-top: 15px;
+  border-bottom: 1px solid #cdcdcd;
+  width: 250px;
+}
+
+.lower-footer {
+  background-color: #1e2f27;
+  color: white;
+}
+
+.product-result {
+  border-left: 7px solid grey;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+}
+
+.contact-btn {
+  background-color: #00d6a1;
+  border: #00CC99;
+}
+
+.conatact .card {
+  border: 1px solid #00d6a1;
+  padding: 20px;
+}
+
+.conatact .card span {
+  margin-top: -70px;
+  border: 1px solid #00d6a1;
+  border-radius: 50%;
+  width: 80px;
+  text-align: center;
+  height: 80px;
+}
+
+.conatact .input {
+  border: 1px solid #00d6a1;
+}
+
+/*# sourceMappingURL=style.css.map */

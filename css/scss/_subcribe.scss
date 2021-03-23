@@ -1,0 +1,30 @@
+// .subcribe{
+
+
+//     color:white;
+
+//     p{
+//         color:white;
+//     }
+
+//     .sub-border{
+//         background-color: $black-color;
+//         width: 150px;
+
+//         height: 5px;
+//     }
+// }
+
+
+.subcribe{
+    background-color:darken($color: #1E152A, $amount: 3km);
+        color: white;
+    .container{
+        
+        background-color:lighten($color: #1E152A, $amount: 3);
+    }
+
+    .mail-icon{
+        margin-top: -70px;
+    }
+}

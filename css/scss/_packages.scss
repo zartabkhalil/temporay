@@ -1,0 +1,62 @@
+// .export {
+//     background-color: $sky-blue;
+//     padding: 20px;
+//     color: white;
+// }
+
+// .Trader {
+//     background-color: $pt-blue;
+//     height: 350px;
+//     margin-top: -35px;
+//     @extend .export;
+// }
+
+// .Private {
+//     @extend .export;
+// }
+
+.package-border{
+    background-color:lighten($color: $dark-green, $amount: 10);
+    height: 70px;
+    margin-top: -50px;
+}
+
+.sevice-arrow{
+ul{
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+li{
+    margin-top: 5px;
+    font-size: bold;
+    
+}    
+}
+    
+}
+
+    .sevice-arrow{
+        background-color: darken($color: white, $amount: 1);
+    }
+
+    .sevice-arrow {
+        small{
+            color:lighten($color: #00CC99, $amount: 2);
+            font-size: 20px;
+        }
+    }
+
+     .sevice-arrow:hover {
+         transition: all 1s ease-in-out;
+        transform: scale(1.1);
+
+     }
+
+     .package {
+         
+         background-image: url('../../img/background.png');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         
+         }
+

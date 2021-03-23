@@ -1,0 +1,108 @@
+@mixin  border-color($value) {
+        border:1px solid $value
+}
+
+.all-side-nav {
+    height: 1000px;
+    width: 100%;
+    opacity: 1000;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    box-shadow: 120px 4px 26px rgba(0, 0, 0, 0);
+    
+}
+
+
+
+.logo-div1 {
+     @include border-color(white);
+    .logo-div2 {
+        @include border-color(white);
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+
+
+}
+
+.main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/dream-pulse-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.side-nav {
+    ul {
+        list-style-type: none;
+    
+        li:hover{
+            background-color: red;
+        }
+
+        li{
+            transition: 1s all ease-in-out;
+        
+        a {
+            text-decoration: none!important;
+            color:white;
+        }
+}
+    }
+
+    li {
+        margin-top: 25px;
+        font-size: 25px;
+        color:white;
+        text-align: center;
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    }
+
+    
+    
+
+    
+}
+.side-nav {
+    transition:1s ease-out;
+    
+}
+
+#nav-toggle{
+    padding: 10px;
+    cursor: pointer;
+    span{
+    background-color: black;
+    display: block;
+    margin-top: 7px;
+    width: 30px;
+    height: 5px;
+    }
+}
+
+@media (min-width:768px) {
+    .position-fixedd {
+        position: fixed;
+        left: 1px;
+        top: 1px;
+    }
+
+}
+.bg-grey{
+    background-color: darken($color: grey, $amount: 10);
+   
+    opacity: -0.9;
+   
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.z-0{
+    z-index: 0;
+}
